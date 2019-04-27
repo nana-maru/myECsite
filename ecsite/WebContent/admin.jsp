@@ -55,7 +55,6 @@
 	 height: 55%;
 	 border: 1px solid #333;
 	 text-align:center:
-	 overflow:hidden;
 	}
 
 	#content{

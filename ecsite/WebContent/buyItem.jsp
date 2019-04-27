@@ -10,6 +10,7 @@
 <meta http-equiv="imagetoolbar" content="no"/>
 <meta name="description" content=""/>
 <meta name="keywords" content=""/>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <title>BuyItem画面</title>
 
 <style type="text/css">
@@ -112,7 +113,7 @@
 
     <td>
      <input type="radio" name="pay" value="1" checked="checked">現金払い
-     <input type="radio" name="pay" value="2" >クレジットカード
+     <input type="radio" name="pay" value="2" checked="checked">クレジットカード
     </td>
    </tr>
 
@@ -124,8 +125,8 @@
   </table>
   </s:form>
   <div>
-   <p>前画面に戻る場合は<a href='<s:url action="GoHomeAction"/>'>こちら</a></p>
-   <p>マイページは<a href='<s:url action="MyPageAction"/>'>こちら</a></p>
+   <p>前画面に戻る場合は<a href='<s:url action="GoHomeAction"/>'><i class="fas fa-undo-alt"></i>こちら</a></p>
+   <p>マイページは<a href='<s:url action="MyPageAction"/>'><i class="fas fa-user-circle"></i>こちら</a></p>
   </div>
  </div>
 </div>

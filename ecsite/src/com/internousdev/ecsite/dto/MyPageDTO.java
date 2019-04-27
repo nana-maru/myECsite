@@ -6,7 +6,7 @@ public class MyPageDTO {
 	private String totalCount;
 	private String payment;
 	private String id;
-//	private String userName;
+	private String userName;
 	private String insert_date;
 
 
@@ -50,13 +50,13 @@ public class MyPageDTO {
 		this.id = id;;
 	}
 
-//	public String getUserName(){
-//		return userName;
-//	}
-//
-//	public void setUserName(String userName){
-//		this.userName = userName;
-//	}
+	public String getUserName(){
+		return userName;
+	}
+
+	public void setUserName(String userName){
+		this.userName = userName;
+	}
 
 	public String getInsert_date(){
 		return insert_date;

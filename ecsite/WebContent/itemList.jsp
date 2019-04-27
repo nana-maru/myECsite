@@ -108,7 +108,8 @@
   </s:if>
 
   <div id="text-right">
-   <a href='<s:url action="AdminAction"/>'>管理者TOPへ</a>
+   <p>Homeへ戻る場合は<a href='<s:url action="GoHomeAction"/>'>こちら</a></p>
+   <p>ログアウトする場合は<a href='<s:url action="LogoutAction"/>'>こちら</a></p>
   </div>
  </div>
 </div>
